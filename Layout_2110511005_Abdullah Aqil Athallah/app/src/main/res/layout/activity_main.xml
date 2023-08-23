@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="238dp"
+        android:layout_height="175dp"
+        android:background="@drawable/loginni"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <EditText
+        android:id="@+id/btn1"
+        android:layout_width="335dp"
+        android:layout_height="52dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="Enter your Email"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        android:textSize="11dp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <EditText
+        android:id="@+id/btn2"
+        android:layout_width="335dp"
+        android:layout_height="52dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="Enter Your Password"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        android:textSize="11dp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <Button
+        android:layout_width="335dp"
+        android:layout_height="52dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="Login"
+        android:textSize="11dp"
+        android:textColorHint="@color/white"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="505dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_pegular"
+        android:text="Forgot Password?"
+        android:textColor="@color/abu"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="467dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_pegular"
+        android:text="or login with"
+        android:textColor="@color/abu"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="578dp" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/google"
+        tools:layout_editor_absoluteX="193dp"
+        tools:layout_editor_absoluteY="612dp" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/twitter"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="612dp" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/fb"
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="612dp" />
